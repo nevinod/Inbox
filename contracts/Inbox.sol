@@ -2,8 +2,8 @@ pragma solidity ^0.4.17;
 
 contract Inbox {
   string public message;
-  string public mail;
-  string public initial;
+  /* string public mail;
+  string public initial; */
 
   function Inbox(string initialMessage) public {
     message = initialMessage;
